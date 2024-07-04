@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.browse-courses {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.login-form {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    color: white;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.stay-signed-in {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.stay-signed-in label {
+    color: white;
+    text-align: right;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+
+.forgot-password {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.instructure {
+    margin-top: 20px;
+}
+
+.instructure p {
+    color: white;
+    font-size: 12px;
+}
